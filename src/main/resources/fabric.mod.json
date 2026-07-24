@@ -3,7 +3,7 @@
   "id": "vine-cork",
   "version": "${mod_version}",
   "name": "Vine Cork",
-  "description": "Server-side scaffold for stopping vine growth.",
+  "description": "Stop vines from growing using a shear (only required server-side)",
   "authors": [
     "magicus"
   ],
@@ -13,12 +13,15 @@
   },
   "license": "LGPL-3.0-only",
   "icon": "assets/vine-cork/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
-    "server": [
+    "main": [
       "se.icus.mag.vinecork.VineCorkMod"
     ]
   },
+  "mixins": [
+    "vine-cork.mixins.json"
+  ],
   "depends": {
     "fabric-api": ">=${fabric_api_version}",
     "fabricloader": ">=${loader_version}",

@@ -1,0 +1,13 @@
+{
+  "compatibilityLevel": "JAVA_25",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "mixins": [
+    "BlockBehaviourMixin",
+    "VineBlockMixin"
+  ],
+  "package": "se.icus.mag.vinecork.mixin",
+  "required": true
+}
