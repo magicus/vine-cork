@@ -9,6 +9,7 @@
   ],
   "contact": {
     "homepage": "https://github.com/magicus/vine-cork",
+    "issues": "https://github.com/magicus/vine-cork/issues",
     "sources": "https://github.com/magicus/vine-cork"
   },
   "license": "LGPL-3.0-only",
@@ -23,8 +24,8 @@
     "vine-cork.mixins.json"
   ],
   "depends": {
-    "fabric-api": ">=${fabric_api_version}",
+    "minecraft": "${supported_minecraft_versions}",
     "fabricloader": ">=${loader_version}",
-    "minecraft": "${supported_minecraft_versions}"
+    "fabric-api": ">=${fabric_api_version}"
   }
 }
